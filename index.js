@@ -8,7 +8,7 @@ const PORT = 3000;
 const rawData = fs.readFileSync("products.json");
 const products = JSON.parse(rawData).products;
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "https://ecommerce-infotechtion-qkeb.vercel.app"
 }))
 
 
